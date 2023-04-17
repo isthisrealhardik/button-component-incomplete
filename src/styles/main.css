@@ -1,0 +1,27 @@
+.Main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+#Container {
+    width: 80%;
+    background-color: white;
+    padding-top: 80px;
+    padding-left: 150px;
+    /* margin: 40px 120px; */
+}
+#Heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #4f4f4f;
+    font-size: 50px;
+}
+#flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 70px;
+}

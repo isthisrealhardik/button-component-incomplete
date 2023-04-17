@@ -1,0 +1,59 @@
+:root {
+    /* colors */
+    --background: #FAFBFD;
+    --logoOne: #090F31;
+    --logoTwo: #F7542E;
+    --text: #9E9E9E;
+
+    /* fonts */
+    --notoSans: 'Noto Sans';
+    --poppins: 'Poppins';
+}
+#Nav {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text);
+    width: 20%;
+}
+h1 {
+    /* font-size: 5px; */
+    font-family: var(--poppins);
+    font-weight: 600;
+}
+#one {
+    color: var(--logoTwo);
+    font-size: 25px;
+}
+#two {
+    color: var(--logoOne);
+    font-size: 25px;
+}
+#Logo {
+    width: 250px;
+}
+#Lists {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 250px;
+    margin-top: 120px;
+}
+h3 {
+    color: inherit;
+    text-align: start;
+    text-decoration: none !important;
+    font-size: 30px;
+    font-family: var(--notoSans);
+    font-weight: 500;
+    margin: 25px 0px;
+    padding: 0px;
+    /* padding: 0px; */
+    /* text-decoration: none; */
+    /* position: relative; */
+}
+h3:hover {
+    cursor: pointer;
+}
+/* li::before { position: absolute; } */

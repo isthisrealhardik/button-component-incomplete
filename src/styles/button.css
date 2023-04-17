@@ -1,0 +1,70 @@
+
+p {
+    margin: 20px 0px;
+    font-family: 'Ubuntu Mono';
+    font-size: 25px;
+    color: #333;
+}
+.p-active {
+    font-family: 'Ubuntu Mono';
+    font-size: 25px;
+    color: #828282;
+}
+button {
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    /* padding: 15px 25px; */
+    height: 70px;
+    width: 150px;
+    background-color: #3D5AFE;
+    color: white;
+    border: none;
+}
+.default {
+    box-shadow: 0px 2px 3px 0px #33333333;
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+    border: none;
+}
+.default-active {
+    background-color: #AEAEAE;
+    box-shadow: 0px 2px 3px 0px #33333333;
+    /* font-size: 25px; */
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    border: none;
+    color: #3F3F3F;
+}
+.outline {
+    background-color: white;
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+}
+.outline-active {
+    background-color: #2962FF1A;
+    color: #3D5AFE; 
+    border: 1px solid #3D5AFE;   
+}
+.text {
+    background: white;
+    border: none;
+    color: #3D5AFE;
+}
+.text-active {
+    background-color: #2962FF1A;
+    border: none;
+    color: #3D5AFE; 
+}
+.disableShadow {
+    box-shadow: none;
+}
+.disabled {
+    background-color: #E0E0E0;
+    color: #9E9E9E;
+}
+.disabled-active {
+    color: #9E9E9E;
+}
